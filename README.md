@@ -1,5 +1,5 @@
-# readBot
-##【fork元】  
+# readBot  
+## fork元  
 https://qiita.com/Nemy/items/d895114d3ba9a9d7cb62  
 This is the source code of the reading bot of Discord. It's a little better than when I posted it on Qiita.  
 ## 実行方法
