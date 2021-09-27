@@ -8,7 +8,7 @@ This is the source code of the reading bot of Discord. It's a little better than
 3.依存関係をインストールします。下記の他、実行時に足りないものがあると言われたらインストールしてください。  
 `
 py -3 -m pip install -U discord.py 
-`
+`  
 4.read_boy.pyのトークンを己のbotが持つトークンに書き換えます。server_id_testとtext_id_testも必要ならば書き換えてください。  
 5.プログラムを配置したディレクトリに移動し、以下のコマンドを実行します。  
 `PS path\to\this\program> python read_bot.py`  
