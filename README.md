@@ -5,10 +5,14 @@ This is the source code of the reading bot of Discord. It's a little better than
 ## 実行方法
 1.まずVOICEVOX（ソフトウェア、ないしエンジン）をインストールします。  
 2.次に、VOICEVOXを起動します。サーバが立ちさえすればbatファイルで起動しても構いません。  
-3.read_boy.pyのトークンを己のbotが持つトークンに書き換えます。server_id_testとtext_id_testも必要ならば書き換えてください。  
-4.以下のコマンドを実行します。  
+3.依存関係をインストールします。下記の他、実行時に足りないものがあると言われたらインストールしてください。  
+`
+py -3 -m pip install -U discord.py 
+`
+4.read_boy.pyのトークンを己のbotが持つトークンに書き換えます。server_id_testとtext_id_testも必要ならば書き換えてください。  
+5.プログラムを配置したディレクトリに移動し、以下のコマンドを実行します。  
 `PS path\to\this\program> python read_bot.py`  
-5.音声チャンネルに入り、テキストチャンネルで.joinすれば入ってくれます。そうすると読み上げてくれます。さよならは.byeです。    
+6.音声チャンネルに入り、テキストチャンネルで.joinすれば入ってくれます。そうすると読み上げてくれます。さよならは.byeです。    
 ## 今後の展望  
 現在合成した音声を逐次ファイルに書き出しているため、これをオンメモリでできればなと思います。  
 ただ、特に策があるわけでもないです。FFmpegPCMAudioにBytesIOを渡しても上手く行かなかったんですね……。  
